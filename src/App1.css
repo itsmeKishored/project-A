@@ -1,0 +1,225 @@
+.head{
+    display: flex;
+    
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3)); /* Gradient background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    gap: 150px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 94rem;
+    height: 100px;
+    margin-top: -0.1%;
+    margin-bottom:-1%;
+}
+.logo:hover{
+    transform: scaleX(-1);
+}
+.logo{
+   width: 200px;
+   height: 200px;
+   margin: -20%;
+
+}
+.nav-link
+{
+    text-decoration: none;
+}
+.wow{
+    width: fit-content;
+}
+
+.about{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+}
+
+.l:hover{
+    color: red;
+}
+
+.l{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+
+
+
+
+
+.showcase2 {
+    height: max-content;
+     background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("C:\Users\91909\Downloads\pexels-chan-walrus-958545.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+  }
+  
+
+.showcase {
+    height: 117rem;
+    background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("C:\Users\91909\Downloads\pariwat-pannium-vQYwYovzc-0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .showcase1 {
+    height: 40rem;
+    background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+
+
+
+
+  
+.login-container {
+  height: 40rem;
+     background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* .login-container {
+    width: 20%;
+    padding-top: 10%;
+} */
+.form-group {
+  
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    width: 10rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 10rem;
+    /* width: 100%; */
+    padding: 8px;
+    border: 1px solid #1e1c1c;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.about>h1:hover{
+    color: red;
+}
+.about>h2:hover{
+    color: red;
+}
+.about>h4:hover{
+    color: white;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,30%); /* Three columns with equal width */
+    grid-gap: 40px; /* Gap between grid items */
+  }
+  .grid-item {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    color: red;
+    margin-left: 75%;
+    margin-top: 5%;
+    font-size: large;
+    font-family: cursive;
+    background-image: url("https://img.freepik.com/free-photo/restaurants-terrace-with-black-green-awnings_157027-4389.jpg?t=st=1712834068~exp=1712837668~hmac=015926f5f10d4479f26c8bd28c244333c6f784f19c6f5b68f0c6c7f86d912c1b&w=1380");
+  }
+  .book-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .grid-item:hover .book-button {
+    opacity: 1;
+  }
+
+
+  .logo2{
+    margin-left: 500px;
+    margin-top: -5%;
+  }
+
+  .RES{
+    font-size: 500%;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    font-weight: 1000;
+    font-size: 100px;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 
+        -1px -1px 0 red,  
+         5px -1px 0 red,
+        -1px  5px 0 red,
+         5px  5px 0 red;
+    
+    
+  }
